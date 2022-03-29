@@ -1,0 +1,86 @@
+/* Make 3 utility classes to color uv element */
+
+.uv-low {
+  color: white;
+  background-color: green;
+}
+
+.uv-moderate {
+  color: white;
+  background-color: yellow;
+}
+
+.uv-high {
+  color: white;
+  background-color: red;
+}
+
+.container {
+  border: 10px;
+  border-color: black;
+}
+
+#current {
+  padding-bottom: 30px;
+  border: 10px;
+  border-color: black;
+}
+#future {
+  display: flex;
+  border: 10px;
+  border-color: black;
+}
+
+body {
+  background-color: #e2dccd;
+}
+
+h1 {
+  padding-top: 15px;
+  margin: auto;
+  width: 50%;
+  border: 3px solid #272838;
+  padding: 10px;
+  text-align: center;
+}
+
+#search-box {
+  padding-left: 50px;
+  padding-top: 20px;
+}
+
+input {
+  border-radius: 25px;
+  border: 2px solid #272838;
+  padding: 20px;
+  width: 300px;
+  height: 25px;
+  background-color: #e2dccd;
+}
+
+#current {
+  margin: auto;
+  width: 50%;
+  outline: 3px;
+  border: 3px solid #272838;
+  padding: 10px;
+  text-align: center;
+}
+
+#future {
+  margin: auto;
+  width: auto;
+  outline: 3px;
+  border: 3px solid #272838;
+  padding: 10px;
+  justify-content: space-around;
+}
+
+button {
+  text-align: center;
+  border-radius: 25px;
+  border: 2px solid #272838;
+  width: 150px;
+  height: 25px;
+  background-color: #e2dccd;
+}

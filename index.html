@@ -1,37 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" href="./assets/style.css"/>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./assets/style.css" />
     <title>Weather Forecast</title>
-</head>
+  </head>
 
-<body>
-<!--title-->
-    <div>
-        <h1>Weather Forecast</h1>
+  <body>
+    <!--title-->
+    <div class="heading">
+      <h1>Weather Forecast</h1>
     </div>
-<!--Search Bar-->
-    <form id="form"> 
-        <input type="search" id="query" name="q" placeholder="Search...">
+    <!--Search Bar-->
+    <aside id="search-box">
+      <form id="form">
+        <input type="search" id="query" name="q" placeholder="Search..." />
         <button id="search-btn">Search</button>
-    </form>
-<!--Weather-->
-    <section id="weather">
-       <div id="current">
-           
-    
-        <div id="future" class="weatherFuture"></div>
-       
-  
-      
+      </form>
+    </aside>
+
+    <!--Weather-->
+    <section id="weather" class="container">
+      <div id="current"></div>
+
+      <div id="future" class="weatherFuture"></div>
     </section>
     <script src="./assets/index.js"></script>
-    </body> 
-    </html>
-
-    
+  </body>
+</html>
